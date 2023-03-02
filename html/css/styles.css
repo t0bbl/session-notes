@@ -1,0 +1,65 @@
+/* Universal Selector */
+
+* {
+  box-sizing: border-box;
+  font-family: Raleway;
+  margin: 0;
+  padding: 0;
+}
+
+/* raleway-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/raleway-v28-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/raleway-v28-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/raleway-v28-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/raleway-v28-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/raleway-v28-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/raleway-v28-latin-regular.svg#Raleway") format("svg"); /* Legacy iOS */
+}
+
+/* Element / Type Selector */
+h1 {
+  text-align: right;
+}
+nav {
+  text-align: right;
+}
+
+body {
+  padding: 20px;
+  margin: auto;
+  width: 90%;
+}
+h1 {
+  color: darkcyan;
+}
+section {
+  padding: 5px;
+  border-radius: 10px;
+  margin: 2px;
+  background-color: lightgrey;
+}
+
+aside {
+  background-color: aliceblue;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 2px;
+}
+
+/* class Selector */
+
+.class {
+}
+.ffacts {
+  text-align: right;
+}
