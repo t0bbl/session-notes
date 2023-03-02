@@ -1,4 +1,10 @@
-/* thats an awesome comment! */
+/* Universal Selector */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Element / Type Selector */
 
 body {
   padding: 20px;
@@ -6,4 +12,22 @@ body {
 }
 h1 {
   color: darkcyan;
+}
+section {
+  padding: 5px;
+  border-radius: 10px;
+  margin: 2px;
+  background-color: lightgrey;
+}
+
+aside {
+  background-color: aliceblue;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 2px;
+}
+
+/* class Selector */
+
+.class {
 }
