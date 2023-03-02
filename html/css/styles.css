@@ -24,6 +24,12 @@
 }
 
 /* Element / Type Selector */
+h1 {
+  text-align: right;
+}
+nav {
+  text-align: right;
+}
 
 body {
   padding: 20px;
