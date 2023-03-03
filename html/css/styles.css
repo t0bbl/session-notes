@@ -1,6 +1,6 @@
 /* Universal Selector */
 
-* {
+* *::before *::after {
   box-sizing: border-box;
   font-family: Raleway;
   margin: 0;
@@ -29,9 +29,7 @@
 /* Element / Type Selector */
 h1 {
   text-align: right;
-}
-nav {
-  text-align: right;
+  color: darkcyan;
 }
 
 body {
@@ -39,9 +37,7 @@ body {
   margin: auto;
   width: 90%;
 }
-h1 {
-  color: darkcyan;
-}
+
 section {
   padding: 5px;
   border-radius: 10px;
@@ -54,10 +50,47 @@ aside {
   padding: 5px;
   border-radius: 10px;
   margin: 2px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+p {
+  color: darkcyan;
+}
+
+a {
+  text-decoration: none;
+  color: darkcyan;
+}
+a:hover {
+  color: white;
+  background-color: darkcyan;
 }
 
 /* class Selector */
 
-.ffacts {
-  text-align: right;
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.about_me {
+  display: flex;
+  gap: 10px;
 }
