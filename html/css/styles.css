@@ -1,6 +1,6 @@
 /* Universal Selector */
 
-* {
+* *::before *::after {
   box-sizing: border-box;
   font-family: Raleway;
   margin: 0;
@@ -29,9 +29,7 @@
 /* Element / Type Selector */
 h1 {
   text-align: right;
-}
-nav {
-  text-align: right;
+  color: darkcyan;
 }
 
 body {
@@ -39,9 +37,7 @@ body {
   margin: auto;
   width: 90%;
 }
-h1 {
-  color: darkcyan;
-}
+
 section {
   padding: 5px;
   border-radius: 10px;
@@ -56,8 +52,31 @@ aside {
   margin: 2px;
 }
 
+p {
+  color: darkcyan;
+}
+
+a {
+  text-decoration: none;
+  color: darkcyan;
+}
+
+ul > li:hover {
+  color: white;
+  background-color: darkcyan;
+}
+
+li {
+  list-style-type: none;
+}
 /* class Selector */
 
 .ffacts {
   text-align: right;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: ;
 }
