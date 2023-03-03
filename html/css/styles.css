@@ -72,7 +72,6 @@ a:hover {
 
 .menu {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
   list-style-type: none;
   flex-wrap: wrap;
