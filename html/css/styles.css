@@ -50,6 +50,9 @@ aside {
   padding: 5px;
   border-radius: 10px;
   margin: 2px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
 p {
@@ -65,19 +68,14 @@ a:hover {
   background-color: darkcyan;
 }
 
-li {
-  list-style-type: none;
-}
 /* class Selector */
-
-.ffacts {
-  text-align: right;
-}
 
 .menu {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  list-style-type: none;
+  flex-wrap: wrap;
 }
 
 .contact {
@@ -85,5 +83,18 @@ li {
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
+  gap: 10px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.about_me {
+  display: flex;
+  flex-direction: row;
   gap: 10px;
 }
