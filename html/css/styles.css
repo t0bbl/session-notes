@@ -72,7 +72,6 @@ a:hover {
 
 .menu {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
   list-style-type: none;
   flex-wrap: wrap;
@@ -80,7 +79,6 @@ a:hover {
 
 .contact {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: flex-end;
   gap: 10px;
@@ -88,14 +86,12 @@ a:hover {
 
 .socials {
   display: flex;
-  flex-direction: row;
   align-items: center;
   gap: 10px;
 }
 
 .about_me {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: nowrap;
   gap: 10px;
