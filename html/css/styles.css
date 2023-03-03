@@ -79,3 +79,11 @@ li {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
