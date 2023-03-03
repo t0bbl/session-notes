@@ -94,3 +94,16 @@ a:hover {
   display: flex;
   gap: 10px;
 }
+.about {
+  width: 70%;
+}
+
+.cv_cv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.cv_item {
+  flex-basis: auto;
+}
