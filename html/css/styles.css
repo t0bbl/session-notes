@@ -92,6 +92,5 @@ a:hover {
 
 .about_me {
   display: flex;
-  flex-direction: row;
   gap: 10px;
 }
