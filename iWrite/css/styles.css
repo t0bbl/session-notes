@@ -50,10 +50,14 @@ h1 {
 .html {
   display: flex;
   flex-direction: row;
+  align-content: stretch;
   flex-wrap: nowrap;
   position: sticky;
   top: 0px;
 }
 .none {
   color: white;
+}
+.code {
+  flex-basis: 500px;
 }
