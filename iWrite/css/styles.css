@@ -32,8 +32,6 @@ header {
   top: 0px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
 }
 
 body {
@@ -47,17 +45,21 @@ h1 {
   font-weight: 100;
 }
 
-.html {
+.segment {
   display: flex;
   flex-direction: row;
-  align-content: stretch;
-  flex-wrap: nowrap;
   position: sticky;
-  top: 0px;
+  top: 128px;
 }
 .none {
-  color: white;
+  background-color: transparent;
+  color: transparent;
+}
+.bgcwhite {
+  background-color: white;
 }
 .code {
   flex-basis: 500px;
+  margin-left: auto;
+  background-color: white;
 }
