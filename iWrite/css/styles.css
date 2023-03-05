@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Special Elite";
+  margin: 0;
+  padding: 0;
+  font-family: ;
+  height: ;
+}
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Special Elite";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/special-elite-v18-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/special-elite-v18-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/special-elite-v18-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/special-elite-v18-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/special-elite-v18-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/special-elite-v18-latin-regular.svg#SpecialElite")
+      format("svg"); /* Legacy iOS */
+}
+header {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  display: flex;
+  font-size: 64px;
+  font-weight: 100;
+}
+
+.html {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: sticky;
+  top: 0px;
+}
+.none {
+  color: white;
+}
